@@ -3,6 +3,15 @@ description: Create a bug report.
 title: "🐛[Bug]: "
 labels: ["bug"]
 body:
+  - type: checkboxes
+    id: type
+    attributes:
+      label: 何に関すること？（複数選択可能）
+      options:
+        - 見た目
+        - 動作
+        - ロジック
+        - 環境
   - type: textarea
     id: what-happened
     attributes:
