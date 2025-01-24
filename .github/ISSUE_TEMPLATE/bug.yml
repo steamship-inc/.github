@@ -4,9 +4,10 @@ title: "🐛[Bug]: "
 labels: ["bug"]
 body:
   - type: checkboxes
-    id: type
+    id: bug-type
     attributes:
-      label: 何に関すること？（複数選択可能）
+      label: 何に関する不具合＆バグ？
+      label: 複数選択OK
       options:
         - label: 見た目
         - label: 動作
@@ -15,21 +16,32 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: 何が起きてる？
+      label: 何が起きてる？（再現方法など詳しく）
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: checkboxes
+    id: os
     attributes:
-      label: ブラウザは何？
-      multiple: true
+      label: OS
       options:
-        - Chrome
-        - Firefox
-        - Safari
-        - Microsoft Edge
+        - label: Windows
+        - label: Mac
+        - label: Linux
+        - label: iOS
+        - label: Android
+        - label: その他
+  - type: checkboxes
+    id: browser
+    attributes:
+      label: ブラウザ
+      options:
+        - label: Chrome
+        - label: Safari
+        - label: FireFox
+        - label: Edge
+        - label: その他
   - type: textarea
     id: logs
     attributes:
