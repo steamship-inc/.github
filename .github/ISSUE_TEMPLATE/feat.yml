@@ -1,0 +1,28 @@
+name: ✨ 新機能追加
+description: Create a feat report.
+title: "✨[feat]: "
+labels: ["enhancement", "✨ Feature"]
+body:
+  - type: checkboxes
+    id: feat-type
+    attributes:
+      label: 新機能のタイプ
+      options:
+        - label: 見た目
+        - label: 動作
+        - label: 環境
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📌 新機能の概要
+  - type: textarea
+    id: background
+    attributes:
+      label: ❓ なぜこの新機能が必要なのか？
+  - type: textarea
+    id: task
+    attributes:
+      label: ✅ タスク
+      description: 細かいタスクに分解して箇条書きで記述
+      value: |
+        - [ ] 
