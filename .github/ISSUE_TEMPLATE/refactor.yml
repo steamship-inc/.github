@@ -1,0 +1,34 @@
+name: ♻️  リファクタ
+description: Create a refactor report.
+title: "♻️ [Fix]: "
+labels: ["fix", "♻️ Refactor"]
+body:
+  - type: checkboxes
+    id: fix-type
+    attributes:
+      label: 何に関する修正？
+      options:
+        - label: 見た目
+        - label: 動作
+        - label: ロジック
+        - label: 環境
+        - label: コード
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📌 リファクタの概要
+  - type: textarea
+    id: background
+    attributes:
+      label: ❓ なぜ修正が必要なのか？
+  - type: textarea
+    id: future
+    attributes:
+      label: 🔮 修正すると誰がどのようにハッピーになるのか？
+  - type: textarea
+    id: task
+    attributes:
+      label: ✅ タスク
+      description: 細かいタスクに分解して箇条書きで記述
+      value: |
+        - [ ] 
