@@ -7,20 +7,11 @@ body:
     id: bug-type
     attributes:
       label: 何に関する不具合＆バグ？
-      description: 複数選択OK
       options:
         - label: 見た目
         - label: 動作
         - label: ロジック
         - label: 環境
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: 何が起きてる？（再現方法など詳しく）
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-    validations:
-      required: true
   - type: checkboxes
     id: os
     attributes:
@@ -43,8 +34,20 @@ body:
         - label: Edge
         - label: その他
   - type: textarea
+    id: what-happened
+    attributes:
+      label: 何が起きてる？（再現方法など詳しく）
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
     id: logs
     attributes:
       label: エラーログがあればコピペして！
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: textarea
+    id: how-to-fix
+    attributes:
+      label: 修正方法の提案
