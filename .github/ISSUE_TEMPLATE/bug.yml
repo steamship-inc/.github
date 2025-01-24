@@ -7,7 +7,7 @@ body:
     id: bug-type
     attributes:
       label: 何に関する不具合＆バグ？
-      label: 複数選択OK
+      description: 複数選択OK
       options:
         - label: 見た目
         - label: 動作
