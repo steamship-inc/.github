@@ -1,12 +1,18 @@
-## Hi there 👋
+## Steamship Inc. - スチームシップ株式会社
 
-<!--
+### 私たちについて / About Us
 
-**Here are some ideas to get you started:**
+スチームシップ株式会社は、多様なデジタルプロジェクトを展開する日本の企業です。「ゲンチ」をはじめとする地域経済に貢献するプロジェクトから、インフラストラクチャとテクノロジーソリューションまで、革新的なサービスを提供しています。
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Steamship Inc. is a Japanese company developing diverse digital projects. From "Genchi" which contributes to local economies through hometown tax payment systems, to infrastructure and technology solutions, we provide innovative services.
+
+### プロジェクト / Projects
+
+- **ゲンチ (Genchi)** - 現地決済ふるさと納税サービス
+- **インフラストラクチャー** - Terraformを活用したクラウドインフラ管理
+- **その他のプロジェクト** - 決済システムやeコマースソリューション
+
+### 連絡先 / Contact
+
+- 📧 [お問い合わせ](https://github.com/steamship-inc)
+- 🌐 GitHub: [steamship-inc](https://github.com/steamship-inc)
